@@ -1,12 +1,25 @@
 - name: install and run nginx
   hosts: web
-  become: yes #it will get root access
+  become: yes # root access
   tasks:
-  - name: install nginx package
+  - name: install nginx server
+    ansible.builtin.package:
+       name: nginx
+       state: present
+  - name: run the nginx server
     ansible.builtin.package:
       name: nginx
-      state: present
-  - name: run nginx
-    ansible.builtin.service:
-      name: nginx
-      state: started
+      state: started  
+
+        
+
+
+
+
+
+    
+
+    
+    
+
+
