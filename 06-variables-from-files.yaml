@@ -3,6 +3,6 @@
   vars_files:
   - variables.yaml
   tasks:
-   - name: cheeck varibles
-     ansible.builtin.debug:
-     msg: "Hi, i am learning {{Course}}, Trainer is {{Trainer}}, Duraction is {{Duration}},"
+  - name: cheeck varibles
+    ansible.builtin.debug:
+    msg: "Hi, i am learning {{Course}}, Trainer is {{Trainer}}, Duraction is {{Duration}},"
