@@ -1,8 +1,16 @@
 201.200.100.10
 201.200.100.20
 
-[web]
-54.224.13.163 
+[localhost]
+localhost
+
+
+[localhost:vars]
+Course="Ansible"
+Trainer="Pavan"
+Duration="8HRS"
+PERSON="Pavan from inventory"
+WISHES="Morning from inventory"
 
 [cart]
 201.200.100.3
