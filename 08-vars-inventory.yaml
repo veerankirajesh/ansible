@@ -1,6 +1,6 @@
-- name: variables from Play Task
+- name: variables from PLAY level
   hosts: localhost
   tasks:
-  - name: cheeck varibles
+  - name: cheeck variables
     ansible.builtin.debug:
-      msg:"Hi, i am learning {{COURSE}}, Trainer is a {{Trainer}}, Duration is a {{Duraction}},"
+      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
