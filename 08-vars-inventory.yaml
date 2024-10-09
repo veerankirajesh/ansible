@@ -1,6 +1,6 @@
 - name: variables from Play Task
   hosts: localhost
   tasks:
-  - name: check variables
+  - name: cheeck varibles
     ansible.builtin.debug:
       msg:"Hi, i am learning {{COURSE}}, Trainer is a {{Trainer}}, Duration is a {{Duraction}},"
