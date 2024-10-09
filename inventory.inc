@@ -6,11 +6,10 @@ localhost
 
 
 [localhost:vars]
-Course="Ansible"
-Trainer="Pavan"
-Duration="8HRS"
-PERSON="Pavan from inventory"
-WISHES="Morning from inventory"
+Course: "Ansible"
+Trainer: "Pavan"
+Duration: "8HRS"
+
 
 [cart]
 201.200.100.3
