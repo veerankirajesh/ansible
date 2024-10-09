@@ -6,10 +6,9 @@ localhost
 
 
 [localhost:vars]
-
-Course: "Ansible"
-Trainer: "Pavan"
-Duration: "8HRS"
+Course="Ansible From inventory"
+Trainer="Pavan"
+Duration="8HRS"
 
 
 [cart]
