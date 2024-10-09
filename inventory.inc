@@ -6,6 +6,7 @@ localhost
 
 
 [localhost:vars]
+
 Course: "Ansible"
 Trainer: "Pavan"
 Duration: "8HRS"

@@ -7,6 +7,6 @@
     Trainer: "Pavan"
     Duration: "8HRS"
   tasks:
-  - name: cheeck varibles 
+  - name: cheeck variables 
     ansible.builtin.debug:
      msg: "Hi, i am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}},"  
