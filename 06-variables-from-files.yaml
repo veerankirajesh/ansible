@@ -5,4 +5,4 @@
   tasks:
   - name: cheeck varibles
     ansible.builtin.debug:
-    msg: "Hi, i am learning {{Course}}, Trainer is {{Trainer}}, Duraction is {{Duration}},"
+      msg: "Hi, i am learning {{Course}}, Trainer is {{Trainer}}, Duraction is {{Duration}},"
