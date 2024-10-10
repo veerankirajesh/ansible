@@ -13,9 +13,12 @@
     PERSON: "Pavan from PLAY"
     WISHES: "Morning from PLAY"
   tasks:
-  - name: check variables
+  - name: cheeck variables
     vars:
     PERSON: "Pavan from TASK"
     WISHES: "Morning from TASK"
     ansible.builtin.debug:
      msg: "Hello {{PERSON}}, Good {{WISHES}}"  
+
+
+# CMD     
