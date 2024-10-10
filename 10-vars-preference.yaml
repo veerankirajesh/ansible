@@ -20,3 +20,7 @@
     ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{WISHES}}"
 
+#1. cmd
+#2. tasks
+#3. file        
+
