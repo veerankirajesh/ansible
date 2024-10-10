@@ -6,6 +6,6 @@
       msg: "Hello {{item}}" # item is a default keyword
     loop:
     - Ramesh
-    - Suresh
-    - Robert
-    - Raheem
+    - Rajesh 
+    - Raju
+    - Rajvee
