@@ -1,0 +1,13 @@
+- name: loops
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: print person 
+    ansible.builtin.debug:
+      name: "{{item}}"
+      state: present # present is a keyword
+
+    loop:
+    - git
+    - mysql
+    - postfix
