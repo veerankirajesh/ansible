@@ -5,7 +5,7 @@
   - name: check roboshop user or not
     ansible.builtin.command: id roboshop
     register: user #user is avariable name
-    # ignore_errors: true
+    ignore_errors: true
 
   - name: print variable value
     ansible.builtin.debug:
