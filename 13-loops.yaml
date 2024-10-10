@@ -1,11 +1,12 @@
 - name: loops
   hosts: localhost
   tasks:
-  - name: print persons
+  - name: print person 
     ansible.builtin.debug:
-      msg: "Hello {{item}}" # item is a default keyword
-    loop:
+      msg: "Hello {{item}}" # item is default keyword
+
+    loops: 
     - Ramesh
     - Rajesh 
     - Raju
-    - Rajvee
+    - Rajeev  
