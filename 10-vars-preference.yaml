@@ -13,7 +13,7 @@
     PERSON: "Pavan from PLAY"
     WISHES: "Morning from PLAY"
   tasks:
-  - name: cheeck variables
+  - name: check variables
     vars:
     PERSON: "Pavan from TASK"
     WISHES: "Morning from TASK"
