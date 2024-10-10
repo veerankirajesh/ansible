@@ -4,7 +4,7 @@
   - variables.yaml
   vars_prompt:
    - name: PERSON
-     prompt: Please enter your name
+     prompt: Please enter your person
      private: false # user can see what they are entering
    - name: WISHES
      prompt: Please enter your Wishes
