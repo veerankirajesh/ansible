@@ -1,0 +1,17 @@
+- name: ping playbook
+  hosts: localhost
+  tasks:
+  - name: print message
+    ansible.builtin.ping:
+
+  - name: print message
+    ansible.builtin.debug:
+     meg: "Hello Rajesh"
+     tags:
+     - Rajesh 
+
+  - name: print message
+    ansible.builtin.debug:
+     meg: "Hello Veeranki"
+     tags:
+     - Veeranki    
