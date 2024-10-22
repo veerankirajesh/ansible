@@ -8,10 +8,10 @@
     ansible.builtin.debug:
       msg: "Hello Rajesh"
     tags:
-    - devops
+    - Rajesh
   
   - name: print message
     ansible.builtin.debug:
       msg: "Hello Veeranki"
     tags:
-    - aws
+    - Veeranki
