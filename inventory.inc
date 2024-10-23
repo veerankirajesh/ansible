@@ -12,6 +12,13 @@ Duration="8HRS"
 PERSON="Pavan from inventory"
 WISHES="Morning from inventory"
 
+[localhost:web]
+Course="Ansible from inventory"
+Trainer="Pavan"
+Duration="8HRS"
+PERSON="Pavan from inventory"
+WISHES="Morning from inventory"
+
 
 [cart]
 201.200.100.3
